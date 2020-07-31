@@ -1,0 +1,2738 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coldairarrow.Entity</name>
+    </assembly>
+    <members>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_Action">
+            <summary>
+            系统权限表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.ParentId">
+            <summary>
+            父级Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Type">
+            <summary>
+            类型,菜单=0,页面=1,权限=2
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Name">
+            <summary>
+            权限名/菜单名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Url">
+            <summary>
+            菜单地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Value">
+            <summary>
+            权限值
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.NeedAction">
+            <summary>
+            是否需要权限(仅页面有效)
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Action.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_AppSecret">
+            <summary>
+            应用密钥表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.AppId">
+            <summary>
+            应用Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.AppSecret">
+            <summary>
+            应用密钥
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_AppSecret.AppName">
+            <summary>
+            应用名
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_DbLink">
+            <summary>
+            数据库连接表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.LinkName">
+            <summary>
+            连接名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.ConnectionStr">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_DbLink.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_Department">
+            <summary>
+            部门表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.Name">
+            <summary>
+            部门名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Department.ParentId">
+            <summary>
+            上级部门Id
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_Role">
+            <summary>
+            系统角色表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Role.RoleName">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_RoleAction">
+            <summary>
+            角色权限表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.RoleId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_RoleAction.ActionId">
+            <summary>
+            权限Id
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_Log">
+            <summary>
+            系统日志表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.Level">
+            <summary>
+            日志级别
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.LogType">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.LogContent">
+            <summary>
+            日志内容
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_Log.Data">
+            <summary>
+            数据备份（转为JSON字符串）
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_UnitTest">
+            <summary>
+            单元测试表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest.Id">
+            <summary>
+            代理主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest.UserName">
+            <summary>
+            UserName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest.Age">
+            <summary>
+            Age
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_UnitTest_0">
+            <summary>
+            单元测试表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest_0.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest_0.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest_0.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UnitTest_0.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_User">
+            <summary>
+            系统用户表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.RealName">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.Sex">
+            <summary>
+            性别(1为男，0为女)
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.Birthday">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.DepartmentId">
+            <summary>
+            所属部门Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.TeamTableId">
+            <summary>
+            所属班组
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_User.FingerTemplate">
+            <summary>
+            指纹模板
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Base_UserRole">
+            <summary>
+            用户角色表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Base_UserRole.RoleId">
+            <summary>
+            角色Id
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.EnumType">
+            <summary>
+            枚举类型
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.EnumType.RoleTypeEnum">
+            <summary>
+            系统角色类型
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.EnumType.ActionTypeEnum">
+            <summary>
+            类型,菜单=0,页面=1,权限=2
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Scheduling">
+            <summary>
+            排班
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.ShiftsId">
+            <summary>
+            班次Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.TeamTableId">
+            <summary>
+            班组Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.OfficeDate">
+            <summary>
+            上班日期
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Scheduling.GoOffWork">
+            <summary>
+            下班时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.Shifts">
+            <summary>
+            班次
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.ShiftsName">
+            <summary>
+            班次名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.WorkTimeStart">
+            <summary>
+            上班时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.Shifts.WorkTimeEnd">
+            <summary>
+            下班时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Base_Manage.TeamTable">
+            <summary>
+            TeamTable
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.TeamTable.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.TeamTable.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.TeamTable.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.TeamTable.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.TeamTable.TeamTableName">
+            <summary>
+            班组名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.UserName">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Base_Manage.V_TeamTable.TeamTableName">
+            <summary>
+            班组名称
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.CallThe.CallThePolice">
+            <summary>
+            报警日志表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.DeviceInfoId">
+            <summary>
+            设备ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.CallThePoliceContent">
+            <summary>
+            日志内容
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.Max">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.Min">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.CallThe.CallThePolice.Value">
+            <summary>
+            监测数据
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.A5NodeOnOff">
+            <summary>
+            节点开启关闭
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.onOff">
+            <summary>
+            开启关闭
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.A5NodeOnOff.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.AANodeOnOff">
+            <summary>
+            节点开启关闭
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.onOff">
+            <summary>
+            开启关闭
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.AANodeOnOff.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.Angel">
+            <summary>
+            角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.temperatureOriginal">
+            <summary>
+            原始温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.temperature">
+            <summary>
+            温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.xAngel">
+            <summary>
+            X角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.xAngelOriginal">
+            <summary>
+            X原始角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.yAngel">
+            <summary>
+            Y角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.yAngelOriginal">
+            <summary>
+            Y原始角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Angel.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.Battery">
+            <summary>
+            电池电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.voltage">
+            <summary>
+            电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.resistance">
+            <summary>
+            电阻 
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.current">
+            <summary>
+            电流 
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.temperature">
+            <summary>
+            温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.Battery.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.CO2">
+            <summary>
+            二氧化碳变送器
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.value">
+            <summary>
+            二氧化碳
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.CO2.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.GroundResistance">
+            <summary>
+            接地电阻
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.resistance">
+            <summary>
+            电阻
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.GroundResistance.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.NodeTempAndHumidity">
+            <summary>
+            温湿度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.temperature">
+            <summary>
+            正常温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.humidity">
+            <summary>
+            正常湿度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTempAndHumidity.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.NodeTemperature">
+            <summary>
+            节点温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.temperature">
+            <summary>
+            正常温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.NodeTemperature.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DataManage.ThreeElec">
+            <summary>
+            电池电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.nodeNumber">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.deviceid">
+            <summary>
+            采集设备id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.mac">
+            <summary>
+             mac
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.voltage">
+            <summary>
+            电压【A、B、C】
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.zeroCurrent">
+            <summary>
+            零电流
+            </summary> 
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.current">
+            <summary>
+            电流 ‘【A、B、C】
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.totalPower">
+            <summary>
+            总功率
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DataManage.ThreeElec.updateTime">
+            <summary>
+            设备数据采集时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Current_Threshold">
+            <summary>
+            电流阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.Highest_Current">
+            <summary>
+            最高电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.Lowest_Current">
+            <summary>
+            最低电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Current_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State">
+            <summary>
+            设备开关状态
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.Switching_State">
+            <summary>
+            设备开关状态 1 开启 0关闭  off/on
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Device_Switching_State.DeviceUpDateTime">
+            <summary>
+            设备设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold">
+            <summary>
+            湿度阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.Highest_Humidity">
+            <summary>
+            最高湿度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.Lowest_Humidity">
+            <summary>
+            最低湿度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Humidity_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值更新时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold">
+            <summary>
+            铁塔倾斜度阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.X_Highest">
+            <summary>
+            铁塔X轴最高角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.X_Lowest">
+            <summary>
+            铁塔X轴最低角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.Y_Highest">
+            <summary>
+            铁塔Y轴最高角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.Y_Lowest">
+            <summary>
+            铁塔Y轴最低角度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Iron_Tower_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold">
+            <summary>
+            电阻阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.Highest_Resistance">
+            <summary>
+            最高电阻
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.Lowest_Resistance">
+            <summary>
+            最低电阻
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Resistance_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold">
+            <summary>
+            温度阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.Highest_TempeRature">
+            <summary>
+            最高温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.Lowest_TempeRature">
+            <summary>
+            最低温度
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Temperature_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold">
+            <summary>
+            三相电阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.A_Voltage_Highest">
+            <summary>
+            A相电压最高电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.A_Voltage_Lowest">
+            <summary>
+            A相电压最低电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.B_Voltage_Highest">
+            <summary>
+            B相电压最高电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.B_Voltage_Lowest">
+            <summary>
+            B相电压最低电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.C_Voltage_Highest">
+            <summary>
+            C相电压最高电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.C_Voltage_Lowest">
+            <summary>
+            C相电压最低电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.A_Current_Highest">
+            <summary>
+            A相电流最高电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.A_Current_Lowest">
+            <summary>
+            A相电流最低电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.B_Current_Highest">
+            <summary>
+            B相电流最高电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.B_Current_Lowest">
+            <summary>
+            B相电流最低电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.C_Current_Highest">
+            <summary>
+            C相电流最高电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.C_Current_Lowest">
+            <summary>
+            C相电流最低电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.ZeroCurrent_Highest">
+            <summary>
+            零线电流最高电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.ZeroCurrent_Lowest">
+            <summary>
+            零线电流最低电流
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.TotalPower_Highest">
+            <summary>
+            总有功率最高
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.TotalPower_Lowest">
+            <summary>
+            总有功率最低
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Three_Electric_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold">
+            <summary>
+            电压阈值设置
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.Highest_Voltage">
+            <summary>
+            最高电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.Lowest_Voltage">
+            <summary>
+            最低电压
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.DeviceThreshold.Voltage_Threshold.DeviceUpDateTime">
+            <summary>
+            阈值设置时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceData">
+            <summary>
+            设备数据表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.DeviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.DeviceMacCode">
+            <summary>
+            采集设备Mac地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.DeviceValue">
+            <summary>
+            设备数据
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceData.DeviceParameter">
+            <summary>
+            设备参数ID
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceDisplayModule">
+            <summary>
+            首页数据显示模块
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.DeviceDisplayModuleName">
+            <summary>
+            如： 动力监测，环境监测
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.IsDisplay">
+            <summary>
+            1显示0不显示
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModule.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate">
+            <summary>
+            显示模块与设备与部门关联
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.DeviceDisplayModuleId">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.IsDisplay">
+            <summary>
+            1显示0不显示
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.DepartmentId">
+            <summary>
+            所属部门Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceDisplayModuleONdate.DeviceId">
+            <summary>
+            设备Id
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceInfo">
+            <summary>
+            设备信息表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.DeviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.DeviceMacCode">
+            <summary>
+            采集设备Mac地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.IsState">
+            <summary>
+            1显示0不显示
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.DeviceDisplayModuleId">
+            <summary>
+            设备数据模块ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.DepartmentId">
+            <summary>
+            所属部门Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.deviceid">
+            <summary>
+            传感器设备ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.deviceType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.IsControl">
+            <summary>
+            是否控制
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfo.IsOpen">
+            <summary>
+            是否开启
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceInfoAndParameter">
+            <summary>
+            设备信息与设备参数关联表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.DeviceInfoId">
+            <summary>
+            设备信息ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.DeviceParameterId">
+            <summary>
+            设备参数ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.DeviceNode">
+            <summary>
+            设备节点号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.IsDisplay">
+            <summary>
+            0显示1不显示
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceInfoAndParameter.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.DeviceParameter">
+            <summary>
+            设备参数表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceParameter.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceParameter.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceParameter.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceParameter.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.DeviceParameter.DeviceParameterName">
+            <summary>
+            设备参数
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_Device">
+            <summary>
+            T_Device
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Device.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Device.DeviceTypeId">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Device.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Device.Status">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Device.Number">
+            <summary>
+            设备号码
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_DeviceData">
+            <summary>
+            T_DeviceData
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.DeviceTypeId">
+            <summary>
+            DeviceTypeId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.DeviceId">
+            <summary>
+            DeviceId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.DevicePropId">
+            <summary>
+            DevicePropId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceData.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_DeviceInfo">
+            <summary>
+            T_DeviceInfo
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.DeviceTypeId">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.Name">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.IsShow">
+            <summary>
+            是否显示
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.Number">
+            <summary>
+            设备号码
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_DeviceProp">
+            <summary>
+            T_DeviceProp
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.Name">
+            <summary>
+            属性名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.TypeId">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.DeviceTypeId">
+            <summary>
+            设备
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.Unit">
+            <summary>
+            单位 
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceProp.DisplayName">
+            <summary>
+            属性中文名
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_DevicePropLimit">
+            <summary>
+            T_DevicePropLimit
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DevicePropLimit.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DevicePropLimit.DeviceId">
+            <summary>
+            设备Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DevicePropLimit.DevicePropId">
+            <summary>
+            设备属性Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DevicePropLimit.Max">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DevicePropLimit.Min">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_DeviceType">
+            <summary>
+            T_DeviceType
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceType.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceType.Name">
+            <summary>
+            设备类型名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_DeviceType.DisplayName">
+            <summary>
+            显示名称
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_ShowDeviceProp">
+            <summary>
+            T_ShowDeviceProp
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_ShowDeviceProp.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_ShowDeviceProp.DeviceTypeId">
+            <summary>
+            DeviceId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_ShowDeviceProp.PropId">
+            <summary>
+            PropId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_ShowDeviceProp.IsShow">
+            <summary>
+            IsShow
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.T_Type">
+            <summary>
+            T_Type
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Type.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.T_Type.Name">
+            <summary>
+            类型名
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.V_Device">
+            <summary>
+            V_Device
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.DeviceTypeId">
+            <summary>
+            DeviceTypeId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.Number">
+            <summary>
+            Number
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.DeviceMacCode">
+            <summary>
+            DeviceMacCode
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.DeviceCode">
+            <summary>
+            DeviceCode
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_Device.DeviceTypeName">
+            <summary>
+            DeviceTypeName
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate">
+            <summary>
+            V_DeviceDisplayModuleONdate
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.IsDisplay">
+            <summary>
+            IsDisplay
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.DepartmentId">
+            <summary>
+            DepartmentId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.DeviceDisplayModuleId">
+            <summary>
+            DeviceDisplayModuleId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.DeviceDisplayModuleName">
+            <summary>
+            DeviceDisplayModuleName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.deviceid">
+            <summary>
+            deviceid
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.DepartmentName">
+            <summary>
+            DepartmentName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.Position">
+            <summary>
+            Position
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceDisplayModuleONdate.DeviceMacCode">
+            <summary>
+            DeviceMacCode
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.V_DeviceProp">
+            <summary>
+            V_DeviceProp
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.DeviceTypeId">
+            <summary>
+            DeviceId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.TypeId">
+            <summary>
+            Number
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.DeviceTypeName">
+            <summary>
+            DeviceName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.Name">
+            <summary>
+            DeviceTypeName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.TypeName">
+            <summary>
+            PropName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.DisplayName">
+            <summary>
+            TypeName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceProp.ProName">
+            <summary>
+            属性中文名
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Device.V_DeviceStructure">
+            <summary>
+            V_DeviceStructure
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceTypeId">
+            <summary>
+            DeviceTypeId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceTypeName">
+            <summary>
+            DeviceTypeName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceStatus">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceId">
+            <summary>
+            DeviceId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceMacCode">
+            <summary>
+            设备Mac地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DeviceName">
+            <summary>
+            DeviceName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.Number">
+            <summary>
+            Number
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DevicePropId">
+            <summary>
+            DevicePropId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DevicePropName">
+            <summary>
+            DevicePropName
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DevicePropDisplayName">
+            <summary>
+            设备显示名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.DevicePropUnit">
+            <summary>
+            单位
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.PropType">
+            <summary>
+            PropType
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.Max">
+            <summary>
+            Max
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_DeviceStructure.Min">
+            <summary>
+            Min
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.DeviceTypeId">
+            <summary>
+            DeviceTypeId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.DeviceId">
+            <summary>
+            DeviceId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.DevicePropId">
+            <summary>
+            DevicePropId
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_LastData.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Device.V_ModuleInfo.DevicePropUnit">
+            <summary>
+            单位
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Hkv.HkVideo">
+            <summary>
+            视频表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.DepartmentId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.Ip">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.Prot">
+            <summary>
+            端口
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.ViodeName">
+            <summary>
+            视频账号
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.HkVideo.ViodePwd">
+            <summary>
+            视频账号密码
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.Hkv.T_Video">
+            <summary>
+            T_Video
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.T_Video.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.T_Video.RtspUrl">
+            <summary>
+            视频流地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.Hkv.T_Video.Name">
+            <summary>
+            视频流名称
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.MeterReaDing.ChangeShifts">
+            <summary>
+            交接班日志表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.Id">
+            <summary>
+            自然主键
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.Deleted">
+            <summary>
+            否已删除
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.UserId">
+            <summary>
+            交班人员ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.ChangeUserId">
+            <summary>
+            接班人员ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.filePath">
+            <summary>
+            报告地址
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.ChangeShifts.remarks">
+            <summary>
+            报告备注信息
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.MeterReaDing.DailyReport">
+            <summary>
+            报表
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.temperature">
+            <summary>
+            温度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.humidity">
+            <summary>
+            湿度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.resistance">
+            <summary>
+            电阻
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.voltage">
+            <summary>
+            电压【A、B、C】
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.current">
+            <summary>
+            电流 【A、B、C】 
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.temperatureOriginal">
+            <summary>
+            原始温度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.xAngel">
+            <summary>
+            X角度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.xAngelOriginal">
+            <summary>
+            X原始角度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.yAngel">
+            <summary>
+            Y角度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.yAngelOriginal">
+            <summary>
+            Y原始角度
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.value">
+            <summary>
+            二氧化碳
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.zeroCurrent">
+            <summary>
+            零电流
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.totalPower">
+            <summary>
+            总功率
+            </summary>
+        </member>
+        <member name="F:Coldairarrow.Entity.MeterReaDing.DeviceType.onOff">
+            <summary>
+            开启/关闭
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty">
+            <summary>
+            值班抄表数据表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.UserId">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.DeviceDisplayModuleID">
+            <summary>
+            数据模块ID
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.DataContent">
+            <summary>
+            数据内容
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.MeterReaDingTimeSetUpId">
+            <summary>
+            抄表时间Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.ConfirmUserId">
+            <summary>
+            指纹确认Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.moduleName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.deviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.propName">
+            <summary>
+            设备属性
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.propValue">
+            <summary>
+            设备属性数据
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingOnDuty.deptId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="T:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp">
+            <summary>
+            抄表时间设置表
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.CreatorId">
+            <summary>
+            创建人Id
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.CreatorRealName">
+            <summary>
+            创建人姓名
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.MeterName">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:Coldairarrow.Entity.MeterReaDing.MeterReaDingTimeSetUp.MeterTime">
+            <summary>
+            抄表时间
+            </summary>
+        </member>
+    </members>
+</doc>

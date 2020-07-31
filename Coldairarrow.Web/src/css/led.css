@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'led regular';
+    src: url('../assets/fonts/led.ttf');
+}
+
+.led-time {
+    font-family: 'led regular';
+}

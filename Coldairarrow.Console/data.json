@@ -1,0 +1,87 @@
+﻿{
+  "AANodeOnOff": [
+    {
+      "onOff": 255,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "A5NodeOnOff": [
+    {
+      "onOff": 255,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "GroundResistance": [
+    {
+      "resistance": 10.6,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "Battery": [
+    {
+      "current": 10.6,
+      "resistance": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+      "temperature": 40.3,
+      "voltage": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "NodeTempAndHumidity": [
+    {
+      "humidity": 0.0,
+      "temperature": 40.0,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "mac": "00:15:5D:C1:AE:9F",
+  "Angel": [
+    {
+      "temperature": 20.5,
+      "temperatureOriginal": 0.0,
+      "xAngel": 5.2,
+      "xAngelOriginal": 0.0,
+      "yAngel": -3.4,
+      "yAngelOriginal": 0.0,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "NodeTemperature": [
+    {
+      "temperature": 40.0,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "CO2": [
+    {
+      "value": 400.0,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ],
+  "ThreeElec": [
+    {
+      "current": [ 0.0, 0.0, 0.0 ],
+      "totalPower": 106.07,
+      "voltage": [ 0.0, 0.0, 0.0 ],
+      "zeroCurrent": 0.0,
+      "deviceStatusEnum": "normal",
+      "nodeNumber": 1,
+      "timeStamp": 0
+    }
+  ]
+}

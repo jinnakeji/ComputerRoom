@@ -1,0 +1,517 @@
+﻿{
+  "AAAirNodeOnOff": [],
+  "Angel": [
+    {
+      "temperature": 25.5,
+      "temperatureOriginal": 30136.0,
+      "xAngel": -3.2,
+      "xAngelOriginal": 2.053,
+      "yAngel": -9.883,
+      "yAngelOriginal": 1.955,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418057,
+      "nodeNumber": 1
+    }
+  ],
+  "Battery": [
+    {
+      "voltage": [
+        1.08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "resistance": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "temperature": 0.0,
+      "current": 0.0,
+      "voltageTotal": 1.08,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418405,
+      "nodeNumber": 1
+    }
+  ],
+  "NodeTemperature": [
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418034,
+      "nodeNumber": 1
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418035,
+      "nodeNumber": 2
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418035,
+      "nodeNumber": 3
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418036,
+      "nodeNumber": 4
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418036,
+      "nodeNumber": 5
+    },
+    {
+      "temperature": 38.2,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418036,
+      "nodeNumber": 6
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418036,
+      "nodeNumber": 7
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418037,
+      "nodeNumber": 8
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418037,
+      "nodeNumber": 9
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418037,
+      "nodeNumber": 10
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418037,
+      "nodeNumber": 11
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418038,
+      "nodeNumber": 12
+    },
+    {
+      "temperature": 0.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418038,
+      "nodeNumber": 13
+    }
+  ],
+  "CO2": [
+    {
+      "value": 454.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418637,
+      "nodeNumber": 1
+    }
+  ],
+  "GroundResistance": [
+    {
+      "resistance": 82.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418852,
+      "nodeNumber": 1
+    }
+  ],
+  "mac": "",
+  "NodeTempAndHumidity": [
+    {
+      "humidity": 35.8,
+      "temperature": 27.0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418086,
+      "nodeNumber": 1
+    }
+  ],
+  "A5NodeOnOff": [
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418046,
+      "nodeNumber": 1
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418046,
+      "nodeNumber": 2
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418046,
+      "nodeNumber": 3
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418046,
+      "nodeNumber": 4
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418047,
+      "nodeNumber": 5
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418047,
+      "nodeNumber": 6
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418047,
+      "nodeNumber": 7
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418047,
+      "nodeNumber": 8
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418048,
+      "nodeNumber": 9
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418048,
+      "nodeNumber": 10
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418048,
+      "nodeNumber": 11
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418055,
+      "nodeNumber": 12
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418055,
+      "nodeNumber": 13
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418056,
+      "nodeNumber": 14
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418056,
+      "nodeNumber": 15
+    },
+    {
+      "airNumber": 0,
+      "onOff": -1,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418056,
+      "nodeNumber": 16
+    }
+  ],
+  "AirOnOff": [],
+  "AANodeOnOff": [
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418039,
+      "nodeNumber": 1
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418039,
+      "nodeNumber": 2
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418040,
+      "nodeNumber": 3
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418040,
+      "nodeNumber": 4
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418040,
+      "nodeNumber": 5
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418040,
+      "nodeNumber": 6
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418040,
+      "nodeNumber": 7
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418041,
+      "nodeNumber": 8
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418042,
+      "nodeNumber": 9
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418043,
+      "nodeNumber": 10
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418043,
+      "nodeNumber": 11
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418044,
+      "nodeNumber": 12
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418044,
+      "nodeNumber": 13
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418045,
+      "nodeNumber": 14
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418045,
+      "nodeNumber": 15
+    },
+    {
+      "airNumber": 0,
+      "onOff": 0,
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:18",
+      "timeStamp": 86418045,
+      "nodeNumber": 16
+    }
+  ],
+  "ThreeElec": [
+    {
+      "current": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "freq": [
+        49.97,
+        49.97,
+        49.97
+      ],
+      "power": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "powerNumber": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qpower": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spower": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "voltage": [
+        230.5,
+        230.6,
+        230.5
+      ],
+      "voltageLine": [
+        399.3,
+        399.3,
+        399.2
+      ],
+      "deviceStatusEnum": "normal",
+      "updateTime": "1970.01.02 08:00:20",
+      "timeStamp": 86420764,
+      "nodeNumber": 1
+    }
+  ],
+  "deviceid": "测试"
+}
